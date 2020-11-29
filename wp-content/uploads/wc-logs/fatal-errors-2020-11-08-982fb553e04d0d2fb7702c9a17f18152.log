@@ -1,0 +1,12 @@
+2020-11-08T07:32:26+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Cart::wc_get_cart_url() in C:\wamp64\www\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446) : eval()'d code:16
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(289): my_custom_add_to_cart_redirect('')
+#1 C:\wamp64\www\wordpress\wp-includes\plugin.php(206): WP_Hook->apply_filters('', Array)
+#2 C:\wamp64\www\wordpress\wp-content\plugins\woocommerce\includes\class-wc-form-handler.php(783): apply_filters('woocommerce_add...', '', Object(WC_Product_Variation))
+#3 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(287): WC_Form_Handler::add_to_cart_action('')
+#4 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#5 C:\wamp64\www\wordpress\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#6 C:\wamp64\www\wordpress\wp-settings.php(562): do_action('wp_loaded')
+#7 C:\wamp64\www\wordpress\wp-config.php(90): require_once('C:\\wamp64\\www\\w...')
+#8 C:\wamp64\www\wordpress\wp-load.php(37) in C:\wamp64\www\wordpress\wp-content\plugins\code-snippets\php\snippet-ops.php(446) : eval()'d code on line 16
+
